@@ -12,7 +12,7 @@ const app = express();
 app.engine('handlebars', exphbs());
 app.set('view engine', 'handlebars');
 
-
+//routes
 app.get("/",(req,res)=>{
     res.render("index",{
        title : "Home",
@@ -31,7 +31,6 @@ app.get("/about-us",(req,res)=>{
 
 app.get("/contact-us",(req,res)=>{
     
-   
     res.render("contactUs",{
         title : "Contact Us Page",
         services : ["Phones", "Laptops", "PS5"],
