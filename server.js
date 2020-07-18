@@ -33,8 +33,7 @@ app.get("/contact-us",(req,res)=>{
     
     res.render("contactUs",{
         title : "Contact Us Page",
-        services : ["Phones", "Laptops", "PS5"],
-        images
+        services : ["Phones", "Laptops", "PS5"]
      }) 
 });
 
